@@ -1,0 +1,5204 @@
+{
+  "version": "1.0.0",
+  "status": "reviewed",
+  "principles": {
+    "relevance": {
+      "0": "off-route",
+      "1": "contextual",
+      "2": "useful",
+      "3": "high",
+      "4": "critical"
+    },
+    "depth": [
+      "foundation",
+      "intermediate",
+      "advanced",
+      "specialist"
+    ],
+    "expected_mastery": [
+      "recognize",
+      "explain",
+      "use",
+      "analyze"
+    ],
+    "note": "Las rutas solo contienen nodos assessable=true. Los ancestros estructurales se calculan en runtime."
+  },
+  "paths": [
+    {
+      "id": "soc-l1",
+      "name": "SOC L1",
+      "description": "Conocimientos para llegar a SOC L1 y trabajar con criterio.",
+      "accent": {
+        "family": "blue-cyan",
+        "base": "#35BDF8",
+        "bright": "#38D9FF",
+        "soft": "#163B52",
+        "critical_glow": "#38D9FF55"
+      },
+      "nodes": [
+        {
+          "id": "cpu",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ram",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "storage-device",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "io-basics",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "bit",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "byte",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "binary",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hexadecimal",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "text-encoding",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "file",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "directory",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "file-format",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "metadata",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardware",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "software",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "operating-system-concept",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "application",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "client-server",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "virtual-machine",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "hypervisor",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "snapshot",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "filesystem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "processes",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "services",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "users",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "groups",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "permissions",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "system-logs",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "cli",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "shell",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "environment-variables",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "linux",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "bash",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "unix-permissions",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sudo",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "package-management",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "systemd",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cron",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ssh",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "linux-networking",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "windows",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "powershell",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ntfs-permissions",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-services",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-event-logs",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-registry",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "scheduled-tasks",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-networking",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ethernet",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "mac-addresses",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "arp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vlan",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "network-segmentation",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ipv4",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ipv6",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "subnetting",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "gateway",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "routing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "nat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tcp",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "udp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ports",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "dns",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "dhcp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "icmp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "packets-traffic",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "traffic-capture",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "wireshark",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "web-client",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-server",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "url",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "web-resources-routes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "http",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "request-response",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "http-methods",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "status-codes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "http-headers",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "cookies",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sessions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "parameters",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "forms",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "api",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "html",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "javascript",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "auth-flaws",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "access-control-flaws",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "sqli",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "xss",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "command-injection",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "path-traversal",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "file-upload-vulns",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ssrf",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "csrf",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "problem-decomposition",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "variables",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "data-types",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "conditionals",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "loops",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "functions",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "data-structures",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "strings-text",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "parsing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "errors-exceptions",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "debugging",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "libraries-modules",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cli-arguments",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "adapt-scripts",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "automate-tasks",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "process-results",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "python",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asset",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "threat",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vulnerability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "risk",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "attack-surface",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "confidentiality",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "integrity",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "availability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-control",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "defense-in-depth",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardening",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vulnerability-management",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "patch-management",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "malware",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "social-engineering",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "phishing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "encryption",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hashing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "digital-signatures",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "certificates",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "tls",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "security-evidence",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "security-incident",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "escalation",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "playbook-runbook",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "firewall",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ids-ips",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "edr",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "antivirus",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "web-proxy",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "email-security",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ioc",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "threat-intelligence",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "mitre-attack",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "digital-identity",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "account",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "credential",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "identity-lifecycle",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "authentication",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "auth-factors",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "passwords",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "mfa",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sso",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "kerberos",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "authorization",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "access-control",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "least-privilege",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "rbac",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "privileged-access",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "directory-service",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ldap",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "active-directory",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "iam",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "provisioning",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "deprovisioning",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "event",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "log-source",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "event-fields",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "timestamp",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "timezone",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "timeline",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "json",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "csv",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "key-value",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "search",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filtering",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "correlation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "aggregation",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "contextualization",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "siem",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "security-alert",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "detection",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "detection-rule",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "triage",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "true-false-positive",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "alert-prioritization",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "enrichment",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "alert-investigation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "case-ticket",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "case-documentation",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "compliance",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "regulation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "security-awareness",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "policy",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-assessment",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        }
+      ]
+    },
+    {
+      "id": "pentesting",
+      "name": "Pentesting",
+      "description": "Fundamentos transversales y capacidades ofensivas para pentesting generalista.",
+      "accent": {
+        "family": "cyber-red",
+        "base": "#FF3B4D",
+        "bright": "#FF5162",
+        "soft": "#51212A",
+        "critical_glow": "#FF3B4D55"
+      },
+      "nodes": [
+        {
+          "id": "cpu",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ram",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "storage-device",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "io-basics",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "bit",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "byte",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "binary",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "hexadecimal",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "text-encoding",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "file",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "directory",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "file-format",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "metadata",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardware",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "software",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "operating-system-concept",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "application",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "client-server",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "virtual-machine",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "hypervisor",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "snapshot",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filesystem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "processes",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "services",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "users",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "groups",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "permissions",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "system-logs",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cli",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "shell",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "environment-variables",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "linux",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "bash",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "unix-permissions",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sudo",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "package-management",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "systemd",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cron",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ssh",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "linux-networking",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "windows",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "powershell",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ntfs-permissions",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-services",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-event-logs",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "windows-registry",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "scheduled-tasks",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "windows-networking",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "remote-shell",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "file-transfer",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "local-enumeration",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "privilege-escalation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "persistence",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ethernet",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "mac-addresses",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "arp",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "vlan",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "network-segmentation",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ipv4",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ipv6",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "subnetting",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "gateway",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "routing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "nat",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tcp",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "udp",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ports",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "dns",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "dhcp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "icmp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "packets-traffic",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "traffic-capture",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "wireshark",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "host-discovery",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "port-scanning",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "service-detection",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "fingerprinting",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "pivoting",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "tunneling",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "web-client",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-server",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "url",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "web-resources-routes",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "http",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "request-response",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "http-methods",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "status-codes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "http-headers",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "cookies",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sessions",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "parameters",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "forms",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "api",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "html",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "css",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "javascript",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "auth-flaws",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "access-control-flaws",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sqli",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "xss",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "command-injection",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "path-traversal",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "file-upload-vulns",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ssrf",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "csrf",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "problem-decomposition",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "variables",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "data-types",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "conditionals",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "loops",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "functions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "data-structures",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "strings-text",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "parsing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "errors-exceptions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "debugging",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "libraries-modules",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cli-arguments",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "adapt-scripts",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "automate-tasks",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "process-results",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "python",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asset",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "threat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vulnerability",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "risk",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "attack-surface",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "confidentiality",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "integrity",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "availability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-control",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "defense-in-depth",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardening",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vulnerability-management",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "patch-management",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "malware",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "social-engineering",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "phishing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "encryption",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hashing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "digital-signatures",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "certificates",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "tls",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "pentest-scope",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "rules-of-engagement",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "reconnaissance",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "enumeration",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vulnerability-analysis",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "exploitation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "post-exploitation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "security-evidence",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "finding-severity",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "finding-documentation",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "pentest-report",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "remediation-recommendation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "firewall",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ids-ips",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "edr",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "digital-identity",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "account",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "credential",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "identity-lifecycle",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "authentication",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "auth-factors",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "passwords",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "mfa",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sso",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "kerberos",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "authorization",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "access-control",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "least-privilege",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "rbac",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "privileged-access",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "directory-service",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ldap",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "active-directory",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "iam",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "provisioning",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "deprovisioning",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "password-attacks",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "credential-reuse",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "credential-dumping",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "privilege-abuse",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "ad-enumeration",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "kerberoasting",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asrep-roasting",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "acl-abuse",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "delegation-abuse",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "lateral-movement",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "log",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "event",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log-source",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "event-fields",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "timestamp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "timezone",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "timeline",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "json",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "csv",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "key-value",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "search",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filtering",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "correlation",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "aggregation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "contextualization",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "siem",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "compliance",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "regulation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "security-awareness",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "policy",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-assessment",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        }
+      ]
+    },
+    {
+      "id": "grc",
+      "name": "GRC",
+      "description": "Gobernanza, riesgo y cumplimiento con base técnica suficiente para evaluar riesgo, controles y evidencia.",
+      "accent": {
+        "family": "amber",
+        "base": "#FFB347",
+        "bright": "#FF9F43",
+        "soft": "#4D3520",
+        "critical_glow": "#FFB34755"
+      },
+      "nodes": [
+        {
+          "id": "cpu",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ram",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "storage-device",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "file",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "metadata",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "hardware",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "software",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "operating-system-concept",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "application",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "client-server",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "virtual-machine",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hypervisor",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "processes",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "services",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "users",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "groups",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "permissions",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "system-logs",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "linux",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "windows",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sudo",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ssh",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "windows-event-logs",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "scheduled-tasks",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ipv4",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "subnetting",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "vlan",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "network-segmentation",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "routing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "nat",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "tcp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "udp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ports",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "dns",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "packets-traffic",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "wireshark",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "web-client",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-server",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "url",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "http",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cookies",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "sessions",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "api",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "problem-decomposition",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "automate-tasks",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "python",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "asset",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "threat",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "vulnerability",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "risk",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "attack-surface",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "confidentiality",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "integrity",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "availability",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "security-control",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "defense-in-depth",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardening",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vulnerability-management",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "patch-management",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "malware",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "social-engineering",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "phishing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "encryption",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hashing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "certificates",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tls",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-evidence",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "firewall",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ids-ips",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "edr",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "digital-identity",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "account",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "credential",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "identity-lifecycle",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "authentication",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "auth-factors",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "passwords",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "mfa",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "sso",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "kerberos",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "authorization",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "access-control",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "least-privilege",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "rbac",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "privileged-access",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "directory-service",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ldap",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "active-directory",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "iam",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "provisioning",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "deprovisioning",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "log",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "event",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log-source",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "timestamp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "timeline",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "json",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "search",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filtering",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "correlation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "siem",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "governance",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "organizational-security-goals",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "roles-responsibilities",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "policy",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "internal-standard",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "procedure",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "exception-management",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "security-awareness",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "risk-assessment",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "probability",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "impact",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "inherent-risk",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "residual-risk",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "risk-treatment",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "risk-acceptance",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "risk-appetite",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-tolerance",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-register",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "control-effectiveness",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "requirement",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "compliance",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "security-framework",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "external-standard",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "regulation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "control-mapping",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "compliance-gap",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "audit",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "audit-scope",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "control-testing",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "control-design",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "control-operation",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "audit-finding",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "control-deficiency",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "corrective-action",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "follow-up",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "third-party",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "due-diligence",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "vendor-assessment",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "contractual-security-requirements",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "third-party-risk",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "third-party-monitoring",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "business-continuity",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "disaster-recovery",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "bia",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "analyze"
+        },
+        {
+          "id": "rto",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "rpo",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "continuity-plan",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asset-inventory",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asset-owner",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "information-classification",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "information-owner",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "information-retention",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "directory",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "filesystem",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "cli",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "shell",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "bash",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ethernet",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "gateway",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "parameters",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "http-methods",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "http-headers",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "variables",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "data-types",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "digital-signatures",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        }
+      ]
+    },
+    {
+      "id": "cloud-security",
+      "name": "Cloud Security",
+      "description": "Fundamentos, arquitectura y controles de seguridad para entornos y cargas de trabajo en la nube.",
+      "accent": {
+        "family": "sky-blue",
+        "base": "#38BDF8",
+        "bright": "#7DD3FC",
+        "soft": "#0C4A6E",
+        "critical_glow": "#38BDF855"
+      },
+      "nodes": [
+        {
+          "id": "containers",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "container-orchestration",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "serverless",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "object-storage",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "shared-responsibility-model",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cloud-security-posture",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cloud-iam",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "infrastructure-as-code",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cloud-telemetry",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "virtual-machine",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hypervisor",
+          "relevance": 2,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "snapshot",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "storage-device",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cpu",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ram",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "file",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "directory",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "metadata",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "client-server",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "application",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "linux",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filesystem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "processes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "permissions",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "unix-permissions",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "system-logs",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cli",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "shell",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "environment-variables",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "bash",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ssh",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "linux-networking",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ipv4",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ipv6",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "subnetting",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "gateway",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "routing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "nat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tcp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "udp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "ports",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "dns",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "network-segmentation",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "vlan",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "http",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-client",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "web-server",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "url",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "http-methods",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "status-codes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "http-headers",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "api",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "cookies",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sessions",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "parameters",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "auth-flaws",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "access-control-flaws",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ssrf",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "python",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "automate-tasks",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "adapt-scripts",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "variables",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "data-types",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "parsing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "asset",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "threat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vulnerability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "attack-surface",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "confidentiality",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "integrity",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "availability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-control",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "defense-in-depth",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "hardening",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "vulnerability-management",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "patch-management",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "encryption",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "hashing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "digital-signatures",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "certificates",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "tls",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "firewall",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "authentication",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "authorization",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "least-privilege",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "access-control",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "rbac",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "privileged-access",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "mfa",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "sso",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "iam",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "account",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "credential",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "event",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log-source",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "event-fields",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "timestamp",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "json",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "siem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "security-alert",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "detection",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "search",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "filtering",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "compliance",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-framework",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "audit",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "third-party-risk",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vendor-assessment",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "contractual-security-requirements",
+          "relevance": 3,
+          "required_depth": "intermediate",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "asset-inventory",
+          "relevance": 4,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "information-classification",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "disaster-recovery",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "business-continuity",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "hardware",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "software",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "operating-system-concept",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "users",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "groups",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "services",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "windows",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ethernet",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "packets-traffic",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "wireshark",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "malware",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "phishing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "social-engineering",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ids-ips",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "identity-lifecycle",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "passwords",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "directory-service",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "active-directory",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "regulation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "security-awareness",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "policy",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-assessment",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        }
+      ]
+    },
+    {
+      "id": "ai-security",
+      "name": "AI Security",
+      "description": "Seguridad de modelos, agentes, inferencia, datos y marcos de gobernanza de inteligencia artificial.",
+      "accent": {
+        "family": "purple-lilac",
+        "base": "#A855F7",
+        "bright": "#C084FC",
+        "soft": "#3B1B54",
+        "critical_glow": "#C084FC55"
+      },
+      "nodes": [
+        {
+          "id": "cpu",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ram",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "storage-device",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "file",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "directory",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "metadata",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "application",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "client-server",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "virtual-machine",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hypervisor",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "snapshot",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "filesystem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "processes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "permissions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "system-logs",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cli",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "shell",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "environment-variables",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "linux",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "bash",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "unix-permissions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ssh",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "linux-networking",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vlan",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "network-segmentation",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ipv4",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ipv6",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "subnetting",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "gateway",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "routing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "nat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tcp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "udp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ports",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "dns",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-client",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "web-server",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "url",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "http",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "http-methods",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "status-codes",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "http-headers",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cookies",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sessions",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "parameters",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "api",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "auth-flaws",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "access-control-flaws",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ssrf",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "variables",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "data-types",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "parsing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "adapt-scripts",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "automate-tasks",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "python",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "asset",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "threat",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vulnerability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "attack-surface",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "confidentiality",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "integrity",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "availability",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "security-control",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "defense-in-depth",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardening",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "vulnerability-management",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "patch-management",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "encryption",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hashing",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "digital-signatures",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "certificates",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "tls",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "firewall",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "account",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "credential",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "authentication",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "mfa",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "sso",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "authorization",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "access-control",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "least-privilege",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "rbac",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "privileged-access",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "iam",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "event",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "log-source",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "event-fields",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "timestamp",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "json",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "search",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "filtering",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "siem",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "containers",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "container-orchestration",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "serverless",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "object-storage",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "shared-responsibility-model",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cloud-security-posture",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cloud-iam",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "infrastructure-as-code",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "cloud-telemetry",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "io-basics",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "bit",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "byte",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "binary",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hexadecimal",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "text-encoding",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "file-format",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "hardware",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "software",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "operating-system-concept",
+          "relevance": 3,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "prompt-injection",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ai-guardrails",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "mitre-atlas",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "training-data-poisoning",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "model-inversion",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ai-supply-chain",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ai-red-teaming",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "nist-ai-rmf",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "ai-safety-alignment",
+          "relevance": 4,
+          "required_depth": "intermediate",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "users",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "groups",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "services",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "windows",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ethernet",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "packets-traffic",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "wireshark",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "use"
+        },
+        {
+          "id": "malware",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "phishing",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "social-engineering",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "ids-ips",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "identity-lifecycle",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "passwords",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "directory-service",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "active-directory",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "compliance",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "regulation",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "security-awareness",
+          "relevance": 1,
+          "required_depth": "foundation",
+          "expected_mastery": "recognize"
+        },
+        {
+          "id": "policy",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        },
+        {
+          "id": "risk-assessment",
+          "relevance": 2,
+          "required_depth": "foundation",
+          "expected_mastery": "explain"
+        }
+      ]
+    }
+  ]
+}
