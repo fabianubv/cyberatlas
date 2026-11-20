@@ -5,10 +5,8 @@ on:
     branches: [main]
   workflow_dispatch:
 
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+# Por defecto ningún trabajo recibe permisos; cada uno pide solo lo que usa.
+permissions: {}
 
 concurrency:
   group: pages
@@ -17,6 +15,10 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # Instala dependencias de npm y ejecuta código de compilación:
+    # solo necesita leer el repositorio.
+    permissions:
+      contents: read
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,6 +34,10 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    # Solo este trabajo publica en Pages y necesita el token OIDC.
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
